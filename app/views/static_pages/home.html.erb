@@ -1,3 +1,9 @@
 <% provide(:title, 'Home Page') %>
-<h1>Sample App</h1>
-<p>this is home page</p>
+<div class="center hero-unit">
+  <h1>Welcome to the Sample App</h1>
+  <h2>
+    This is the home page for Ruby on Rails Tutorial sample application
+  </h2>
+  
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
