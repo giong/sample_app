@@ -1,3 +1,2 @@
-<% provide(:title, 'Help Page') %>
 <h1>Help</h1>
 <p>this is help page</p>
