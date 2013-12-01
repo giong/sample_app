@@ -98,14 +98,13 @@ aside {
     h1 {
       font-size: 1.6em;
       text-align: left;
-      letter-spacing: 1px;
+      letter-spacing: -1px;
       margin-bottom: 3px;
     }
   }
 }
 
 .gravatar {
-  float: left;
   margin-right: 10px;
 }
 
@@ -166,11 +165,6 @@ input, textarea, select, .uneditable-input {
 
 .timestamp {
   color: $grayLight;
-}
-
-.gravatar {
-  float: left;
-  margin-right: 10px;
 }
 
 aside {
